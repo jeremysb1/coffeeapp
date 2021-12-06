@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Banner buttonText="View stores nearby" handleOnClick={handleOnBannerBtnClick} />
+        <Banner buttonText="View shops nearby" handleOnClick={handleOnBannerBtnClick} />
       </main>
     </div>
   );

@@ -21,5 +21,5 @@ export default function Home() {
         <Banner buttonText="View stores nearby" handleOnClick={handleOnBannerBtnClick} />
       </main>
     </div>
-  )
+  );
 }

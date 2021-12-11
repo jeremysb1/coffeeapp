@@ -1,6 +1,4 @@
-The purpose of this project is to learn [Next.js](https://nextjs.org/).
+This app enables users to find nearby coffee shops check out their ratings, and rate the ones they frequented.
 
-## Getting Started
-
-
+I built this project to learn [Next.js](https://nextjs.org/).
 

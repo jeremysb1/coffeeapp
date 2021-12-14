@@ -14,5 +14,7 @@ Table of Contents
 
 This app helps folks find nearby coffee shops, check out their ratings, and rate the ones they frequented.
 
-I built this project to learn [Next.js](https://nextjs.org/).
+I built this project to learn [Next.js](https://nextjs.org/). I also learned CSS Modules.
+
+The app uses an API to update nearby coffee shops based on your location.
 

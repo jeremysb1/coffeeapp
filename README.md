@@ -24,7 +24,16 @@ This app helps folks find nearby coffee shops, check out their ratings, and rate
 
 ## Getting Started
 
-Clone the repo to your own GitHub environment.
+1. Clone the repo to your own GitHub environment.
+2. Install next, react and react-dom.
+3. Open package.json and add the following scripts:  
+	"scripts": {
+  	  "dev": "next dev",
+  	  "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+	}
+4. Ensure Node.js 12.22.0 or later is installed
 
 ## Roadmap
 

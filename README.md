@@ -38,8 +38,13 @@ This app helps folks find nearby coffee shops, check out their ratings, and rate
 
 ## Why Use Next.js
 
-- SSG
-- SSR
+- Static Site Generation 
+
+ This means the page HTML is generated at build time. That means in production, the page HTML is generated when you run next build . This HTML will then be reused on each request. It can be cached by a CDN.
+
+- Server Side Rendering
+
+The HTML is generated on each request.
 
 6. Upgrade to Next.js Version 12:  https://nextjs.org/docs/upgrading
 

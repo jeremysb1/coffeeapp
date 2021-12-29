@@ -38,11 +38,15 @@ This app helps folks find nearby coffee shops, check out their ratings, and rate
 
 ## Why Use Next.js
 
-- Static Site Generation 
+- Static Site Generation (SSG)
 
- This means the page HTML is generated at build time. That means in production, the page HTML is generated when you run next build . This HTML will then be reused on each request. It can be cached by a CDN.
+ This means the page HTML is generated at build time. That means in production, the page HTML is generated when you run next build . This HTML will then be reused on each request. It's cached by a CDN.
 
-- Server Side Rendering
+- Incremental Static Regeneration (ISR)
+
+Next.js allows you to create or update static pages after you’ve built your site. Incremental Static Regeneration (ISR) enables you to use static-generation on a per-page basis, without needing to rebuild the entire site. With ISR, you can retain the benefits of static while scaling to millions of pages.
+
+- Server Side Rendering (SSR)
 
 The HTML is generated on each request.
 

@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <Card 
           name="DarkHorse Coffee" 
-          imgUrl="/hero-image.png" 
+          imgUrl="/static/hero-image.png"
           href="/coffee-store/darkhorse-coffee" 
         />
       </main>

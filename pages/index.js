@@ -20,9 +20,13 @@ export default function Home() {
       <main className={styles.main}>
         <Banner buttonText="View shops nearby" handleOnClick={handleOnBannerBtnClick} />
         <div className={styles.heroImage}>
-          <Image src="/static/hero-image.png" width={700} height={400}/>
+          <Image src="/static/hero-image.png" width={700} height={400} alt="hero image" />
         </div>
-        <Card />
+        <Card 
+          name="DarkHorse Coffee" 
+          imgUrl="/hero-image.png" 
+          href="/coffee-store/darkhorse-coffee" 
+        />
       </main>
     </div>
   );

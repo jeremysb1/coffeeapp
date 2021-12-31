@@ -50,8 +50,6 @@ Next.js allows you to create or update static pages after you’ve built your si
 
 The HTML is generated on each request.
 
-6. Upgrade to Next.js Version 12:  https://nextjs.org/docs/upgrading
-
 ## Roadmap
 
 The following features are on the product roadmap:

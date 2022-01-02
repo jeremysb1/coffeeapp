@@ -32,7 +32,7 @@ export default function Home(props) {
           <Image src="/static/hero-image.png" width={700} height={400} alt="hero image" />
         </div>
         <div className={styles.cardLayout}>
-          {coffeeStores.map((coffeeStore) => {
+          {props.coffeeStores.map((coffeeStore) => {
             return (<Card
               key={coffeeStore.id}
               name={coffeeStore.name} 

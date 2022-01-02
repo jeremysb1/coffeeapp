@@ -29,6 +29,12 @@ export default function Home() {
             href="/coffee-store/darkhorse-coffee"
             className={styles.card}
           />
+          <Card 
+            name="DarkHorse Coffee" 
+            imgUrl="/static/hero-image.png"
+            href="/coffee-store/darkhorse-coffee"
+            className={styles.card}
+          />
         </div>
       </main>
     </div>

@@ -15,7 +15,7 @@ export async function getStaticProps(context) {
   };
 }
 
-export default function Home() {
+export default function Home(props) {
   const handleOnBannerBtnClick = () => {
     console.log("Hi banner button");
   };
@@ -33,11 +33,11 @@ export default function Home() {
         </div>
         <div className={styles.cardLayout}>
           {coffeeStores.map((coffeeStore) => {
-            return (<Card 
+            return (<Card
+              key={coffeeStore.id}
               name={coffeeStore.name} 
               imgUrl={coffeeStore.imgUrl}
               href={`/coffee-shop/${coffeeStore.id}`}
-              className={styles.card}
               />
             );
           })}

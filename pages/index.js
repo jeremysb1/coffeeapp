@@ -29,7 +29,7 @@ export default function Home() {
             return (<Card 
               name={coffeeStore.name} 
               imgUrl="/static/hero-image.png"
-              href="/coffee-store/darkhorse-coffee"
+              href="/coffee-shop/darkhorse-coffee"
               className={styles.card}
               />
             );

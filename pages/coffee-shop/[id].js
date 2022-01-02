@@ -4,7 +4,7 @@ import Link from 'next/link';
 const CoffeeStore = () => {
   const router = useRouter();
   return (
-    <div>Coffee Shop Page
+    <div>Coffee Shop Page {router.query.id}
       <Link href="/">
         <a>Back to home</a>
       </Link>

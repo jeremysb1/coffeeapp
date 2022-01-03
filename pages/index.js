@@ -31,6 +31,7 @@ export default function Home(props) {
         <div className={styles.heroImage}>
           <Image src="/static/hero-image.png" width={700} height={400} alt="hero image" />
         </div>
+        <h2 className={styles.heading2}>Toronto</h2>
         <div className={styles.cardLayout}>
           {props.coffeeStores.map((coffeeStore) => {
             return (<Card

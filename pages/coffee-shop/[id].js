@@ -26,16 +26,21 @@ export function getStaticPaths() {
 
 const CoffeeStore = (props) => {
   const router = useRouter();
+
+  const { address, name, neighborhood } = props.coffeeStore;
+
+  if(router.isFallback) {
+    return <div>Loading...</div>
+  }
+
   return (
-    <div>Coffee Shop Page {router.query.id}
+    <div>
       <Link href="/">
         <a>Back to home</a>
       </Link>
-      <Link href="/coffee-shop/dynamic">
-        <a>Go to page dynamic</a>
-      </Link>
       <p>{props.coffeeStore.address}</p>
       <p>{props.coffeeStore.name}</p>
+      <p>{props.coffeeStore.neighborhood}</p>
     </div>
   );
 };

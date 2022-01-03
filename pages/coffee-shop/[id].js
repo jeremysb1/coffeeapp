@@ -8,7 +8,7 @@ export function getStaticProps(staticProps) {
   return {
     props: {
       coffeeStore: coffeeStoresData.find(coffeeStore => {
-        return coffeeStore.id === 0 // dynamic id
+        return coffeeStore.id.toString() === params.id // dynamic id
       })
     }
   }

@@ -24,7 +24,7 @@ export function getStaticPaths() {
   };
 }
 
-const CoffeeStore = () => {
+const CoffeeStore = (props) => {
   const router = useRouter();
   return (
     <div>Coffee Shop Page {router.query.id}
@@ -34,6 +34,8 @@ const CoffeeStore = () => {
       <Link href="/coffee-shop/dynamic">
         <a>Go to page dynamic</a>
       </Link>
+      <p>{props.coffeeStore.address}</p>
+      <p>{props.coffeeStore.name}</p>
     </div>
   );
 };

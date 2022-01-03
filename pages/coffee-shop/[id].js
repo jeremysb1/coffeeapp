@@ -38,9 +38,9 @@ const CoffeeStore = (props) => {
       <Link href="/">
         <a>Back to home</a>
       </Link>
-      <p>{props.coffeeStore.address}</p>
-      <p>{props.coffeeStore.name}</p>
-      <p>{props.coffeeStore.neighborhood}</p>
+      <p>{address}</p>
+      <p>{name}</p>
+      <p>{neighborhood}</p>
     </div>
   );
 };

@@ -31,7 +31,7 @@ export default function Home(props) {
         <div className={styles.heroImage}>
           <Image src="/static/hero-image.png" width={700} height={400} alt="hero image" />
         </div>
-        {coffeeStores.length > 0 && (
+        {props.coffeeStores.length > 0 && (
           <div>
             <h2 className={styles.heading2}>Toronto Shops</h2>
             <div className={styles.cardLayout}>

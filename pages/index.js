@@ -5,12 +5,12 @@ import styles from '../styles/Home.module.css';
 import Banner from "../components/banner";
 import Card from "../components/card";
 
-import coffeeStores from "../data/coffee-stores.json";
+import coffeeStoresData from "../data/coffee-stores.json";
 
 export async function getStaticProps(context) {
   return {
     props: {
-      coffeeStores,
+      coffeeStores: coffeeStoresData,
     }, // will be passed to the page component as props
   };
 }

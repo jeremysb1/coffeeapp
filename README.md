@@ -4,10 +4,11 @@ Table of Contents
 
 1. About the project
 2. Technologies Used
-3. Getting Started
-4. Usage
-5. Why Next.js
-6. Roadmap
+3. How I built this
+4. Getting Started
+5. Usage
+6. Why Next.js
+7. Roadmap
 
 ## About the Project
 
@@ -22,6 +23,13 @@ This app helps folks find nearby coffee shops, check out their ratings, and rate
 - Next.js
 - CSS Modules
 - Vercel
+
+## How I built this
+
+1.  Next.js
+2.  Gradient Mesh CSS
+3.  CSS Modules
+4.  
 
 ## Getting Started
 

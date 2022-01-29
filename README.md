@@ -62,4 +62,5 @@ The HTML is generated on each request.
 
 The following features are on the product roadmap:
 
+- Coffee Bean Game
 - SSO Login

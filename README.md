@@ -29,7 +29,7 @@ This app helps folks find nearby coffee shops, check out their ratings, and rate
 1.  Next.js
 2.  Gradient Mesh CSS
 3.  CSS Modules
-4.  
+4.  Google Maps API
 
 ## Getting Started
 

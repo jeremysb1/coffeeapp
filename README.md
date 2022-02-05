@@ -65,3 +65,4 @@ The following features are on the product roadmap:
 - Coffee Bean Game
 - SSO Login
 - Shop Page
+- Stripe Checkout API

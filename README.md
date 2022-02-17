@@ -52,7 +52,7 @@ This app helps folks find nearby coffee shops, check out their ratings, and rate
 
 - Incremental Static Regeneration (ISR)
 
-Next.js allows you to create or update static pages after you’ve built your site. Incremental Static Regeneration (ISR) enables you to use static-generation on a per-page basis, without needing to rebuild the entire site. With ISR, you can retain the benefits of static while scaling to millions of pages.
+ISR enables you to use static-generation on a per-page basis, without needing to rebuild the entire site. With ISR, you can retain the benefits of static while scaling to millions of pages.
 
 - Server Side Rendering (SSR)
 

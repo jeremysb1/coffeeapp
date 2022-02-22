@@ -21,7 +21,6 @@ This app helps folks find nearby coffee shops, check out their ratings, and rate
 - Javascript
 - React
 - Next.js
-- CSS Modules
 - Vercel
 
 ## How I built this
